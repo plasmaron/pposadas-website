@@ -1,8 +1,12 @@
 {{ define "main" }}
-  <article class="post">
-    <h1>{{ .Title | markdownify }}</h1>
-    <div class="post-content">
-      <p>This is not the page you're looking for.</p>
-    </div>
-  </article>
+  <head>
+    <style>
+      h1,
+      h3 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <h1>404</h1>
+  <h3>that page doesn't exist</h3>
 {{ end }}

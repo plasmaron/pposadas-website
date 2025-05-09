@@ -141,20 +141,15 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog"
+    identifier = "resume"
+    name = "resume"
+    url = "/resume"
     weight = 10
   [[menu.main]]
-    identifier = "cv"
-    name = "CV"
-    url = "/cv"
+    identifier = "portfolio"
+    name = "portfolio"
+    url = "/portfolio"
     weight = 20
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 30
 
 [languages]
   [languages.en]

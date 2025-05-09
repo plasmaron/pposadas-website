@@ -1,22 +1,17 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "basics": {
-    
-  },
+  "basics": {},
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "Pop-Up Metro",
+      "location": "Pittsburgh, PA",
+      "position": "Engineering Intern",
+      "url": "https://rrdc.com/companies/pop-up-metro",
+      "startDate": "Jun 2023",
+      "endDate": "Aug 2023",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Retrofitted retired London Underground train cars as part of a startup to build nation’s first fully battery-powered passenger trains",
+        "Improved power capacity and efficiency by revising mechanical/electrical control systems to modern standards"
       ]
     }
   ],
@@ -33,14 +28,12 @@
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
+      "institution": "Carnegie Mellon University",
+      "url": "https://www.cmu.edu/",
+      "area": "Electrical Engineering for Music Technology",
+      "studyType": "B.S.",
+      "startDate": "Aug 2020",
+      "endDate": "Dec 2024"
     }
   ],
   "awards": [
