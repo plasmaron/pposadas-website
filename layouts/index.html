@@ -1,12 +1,48 @@
 {{ define "main" }}
-  <div class="content-section">
-    <h1>{{ .Title | markdownify }}</h1>
-    {{ with .Content }}
-      <div>{{ . }}</div>
-    {{ end }}
+  <style>
+    a.resume-link {
+      color: #689d6a;
+    }
+
+    a.resume-link:hover {
+      color: #427b58;
+    }
+  </style>
+
+  <h1>hi.</h1>
+
+  <p>
+    {{ $image := resources.Get "/images/dantepurple.png" }}
+    <img
+      class="cover"
+      style="float:right; margin-left: 40px;"
+      src="{{ $image.RelPermalink }}"
+      width="250px"
+    />
+  </p>
+
+  <div style="padding-right:15px;">
+    <h2 style="border-bottom:none" style="float:left;">
+      i'm polaron posadas.
+      <span style="font-size: 70%">
+        i'm a hardware engineer, creative technologist, and writer from <b>pittsburgh, pa</b>. i graduated from the
+        <b>music technology</b>
+        program at carnegie mellon university in late 2024.
+      </span>
+    </h2>
+    <h2 style="border-bottom:none" style="float:left;">
+      <span style="font-size: 70%">
+        this website is a repository of my various projects and creations
+        throughout the years. you can find them in the menu above.
+      </span>
+    </h2>
+    <h2 style="border-bottom:none" style="float:left;">
+      <span style="font-size: 70%">
+        you can view
+        <a class="resume-link" href="/resume"
+          ><u><b>⤷ my resume here.</b></u></a
+        >
+      </span>
+    </h2>
   </div>
-  <!-- See https://gohugo.io/functions/where/#mainsections -->
-  {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-  {{ $paginator := .Paginate $pages }}
-  {{ partial "post-list.html" $paginator }}
 {{ end }}
