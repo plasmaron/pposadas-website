@@ -8,7 +8,7 @@
       "position": "Engineering Intern",
       "url": "https://rrdc.com/companies/pop-up-metro",
       "startDate": "Jun 2023",
-      "endDate": "Aug 2023",
+      "endDate": "Aug 2023⠀⠀⠀⠀⠀⠀",
       "highlights": [
         "Retrofitted retired London Underground train cars as part of a startup to build nation’s first fully battery-powered passenger trains",
         "Improved power capacity and efficiency by revising mechanical/electrical control systems to modern standards"
@@ -71,33 +71,60 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "Lightweight autonomous vehicle⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        "With team of 5 developed firmware stack for self-driving vehicle to be pushed by humans along planned path",
+        "Wrote a nonlinear Unscented Kalman Filter (UKF) in C++ to estimate vehicle position and state by processing live sensor data (GPS, IMU) for a custom-built inertial navigation system",
+        "Implemented matrix square root in embedded C++ and tuned filter’s system covariance using real-world tests",
+        "Developed system for sending and receiving high-precision GPS-RTK packets on Teensy microcontroller through LoRa radio and ROS framework"
       ],
-      "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "roles": ["Team lead", "Designer"],
-      "entity": "Smoogle",
-      "type": "application"
+      "startDate": "2023",
+      "endDate": "2024",
+      "roles": ["Robobuggy"]
+    },
+    {
+      "name": "Digital-analog synthesizer modules⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+      "highlights": [
+        "Designed and built a desktop synthesizer instrument for creating complex ambient and drone textures using analog circuits and embedded systems",
+        "Built custom VCO and VCF circuits to perform various wavefolding and distortion operations using KiCad"
+      ],
+      "startDate": "Jan 2024",
+      "endDate": "May 2024",
+      "roles": ["Glitchwaves"]
+    },
+    {
+      "name": "Open-source wiki platform made with Rust⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+      "highlights": [
+        "Contributed to volunteer team of 20 to develop scalable and secure wiki software designed to replace the Wikidot platform, including an internal database backend and web server frontend",
+        "Gained experience with industry standard developer tools including issue-tracking with Jira and remote development with Docker and NodeJS"
+      ],
+      "startDate": "2024",
+      "endDate": "",
+      "roles": ["Wikijump"]
+    },
+    {
+      "name": "ML-driven audiovisualization system⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+      "highlights": [
+        "Digitally processed real-time audio signals and OSC messages with a combination of Max and Unity using mel-frequency cepstral coefficients in order to drive data controlling 3D animations",
+        "Used a neural network to classify sounds based on frequency features, training data on analog synthesizer outputs",
+        "Demonstrated system’s ability to control complex image sequences and transform/deform 3D models in real time performance"
+      ],
+      "startDate": "2023",
+      "endDate": "2024",
+      "roles": ["The Endless Mile"]
+    },
+    {
+      "name": "Experimental stage production⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+      "highlights": [
+        "Worked as lead sound designer and assistant sound engineer for college theater organization’s production of Sarah Ruhl’s play Eurydice",
+        "Created, synthesized and compiled over one hundred distinct effects and was responsible for designing and directing all aspects of the performance’s sonic identity and its implementation",
+        "Handled issues regarding wireless/RF microphones and room acoustics treatment and mixed audio live for audiences in the hundreds"
+      ],
+      "startDate": "Jan 2022",
+      "endDate": "Apr 2022",
+      "roles": ["Eurydice"]
     }
   ],
   "meta": {

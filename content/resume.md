@@ -34,7 +34,3 @@ Experimental Sound Synthesis
 ## Projects
 
 {{< json-resume "projects" >}}
-
-## Leadership
-
-{{< json-resume "awards" >}}
