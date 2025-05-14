@@ -11,21 +11,14 @@
 
   <h1>hi.</h1>
 
-  <p>
-    {{ $image := resources.Get "/images/dantepurple.png" }}
-    <img
-      class="cover"
-      style="float:right; margin-left: 40px;"
-      src="{{ $image.RelPermalink }}"
-      width="250px"
-    />
-  </p>
+  <div></div>
 
   <div style="padding-right:15px;">
     <h2 style="border-bottom:none" style="float:left;">
       i'm polaron posadas.
       <span style="font-size: 70%">
-        i'm a hardware engineer, creative technologist, and writer from <b>pittsburgh, pa</b>. i graduated from the
+        i'm a hardware engineer, creative technologist, and writer from
+        <b>pittsburgh, pa</b>. i graduated from the
         <b>music technology</b>
         program at carnegie mellon university in late 2024.
       </span>
@@ -45,4 +38,11 @@
       </span>
     </h2>
   </div>
+
+  <p>
+    {{ $image := resources.Get "/images/profileimg.jpg" }}
+    <img class="cover" src="{{ $image.RelPermalink }}" width="250px" />
+  </p>
+
+  <p>(yes, that is my real name.)</p>
 {{ end }}

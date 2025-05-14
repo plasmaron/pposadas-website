@@ -19,7 +19,7 @@ Experimental Sound Synthesis
 ### Skills
 
 - C/C++, Rust, Python, Assembly (x86+ARM), MATLAB, Java, SystemVerilog, HTML/CSS
-- Windows/Unix systems
+- Windows & Unix systems (RHEL 8, Ubuntu)
 - KiCad + PCB design
 - DSP/filter design on embedded systems (Arduino, STM32)
 - Modeling (OnShape, Blender), CAD and laser cutting
@@ -34,3 +34,7 @@ Experimental Sound Synthesis
 ## Projects
 
 {{< json-resume "projects" >}}
+
+## Leadership
+
+{{< json-resume "volunteer" >}}

@@ -17,13 +17,53 @@
   ],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": ["Awarded 'Teacher of the Month'"]
+      "organization": "CMU Robotics Club",
+      "position": "Public Relations Officer",
+      "url": "https://roboclub.org/",
+      "startDate": "Apr 2023",
+      "endDate": "Apr 2024",
+      "highlights": [
+        "Handled campus recruitment and advertising for student-run maker/hackerspace of 100+ active members, through maintaining newsletter correspondence and in-person events",
+        "Helped organize Red Robot, the club's flagship beginner robotics hackathon, by designing promotional material, reaching out to potential participants, and devising game rules",
+        "Offered on-the-go assistance and tutoring to students during the competition on debugging code and using the tools in the space",
+        "Connected with corporate sponsors to negotiate partnerships, tech talks, and career events for club members"
+      ]
+    },
+    {
+      "organization": "SCP Foundation Wiki",
+      "position": "Internet & Community Outreach Team",
+      "url": "https://scp-wiki.wikidot.com/",
+      "startDate": "2019",
+      "endDate": "",
+      "highlights": [
+        "Involved in scheduling, developing, and running writing contests on a regular schedule for collaborative fiction site of over 700,000 members, including themed team-based events and its high-profile SCP-x000 competitions",
+        "Proposed and designed new projects, such as new user interface and navigation layouts or rewrites of certain pages, directing volunteers to complete projects through a hierarchical staff structure",
+        "Managed public relations, oversaw SCP's official social media platforms such as Reddit and X (formerly Twitter) with followers in the hundreds of thousands",
+        "Involved in creation of content and resources to educate wider online community"
+      ]
+    },
+    {
+      "organization": "SCPDeclassified",
+      "position": "Founder, Head Editor",
+      "url": "https://scp-wiki.wikidot.com/scpdeclassified",
+      "startDate": "2017",
+      "endDate": "2021",
+      "highlights": [
+        "Founded an online forum for budding writers to publish in-depth analyses, commentaries, and critiques of works of short fiction found on the SCP Wiki",
+        "Built community from the ground up through recruiting new writers regularly, curating the quality of analyses published, and overseeing growth from one-man operation to editorial board with guest writers + subscribed audience of 50,000+",
+        "Personally wrote a number of commentaries during this period (a total of 31)"
+      ]
+    },
+    {
+      "organization": "Furries@CMU",
+      "position": "Events Coordinator",
+      "startDate": "Aug 2023",
+      "endDate": "May 2024",
+      "highlights": [
+        "Helped start and cultivate first dedicated organization for supporting the student furry community at Carnegie Mellon University",
+        "Recruited new members through viral marketing tactics such as posters, fursuit walks, and street art",
+        "Maintained member interest through regularly organizing group events at museums, parks, and conventions, and through connecting with local Pittsburgh furry community"
+      ]
     }
   ],
   "education": [
@@ -114,6 +154,17 @@
       "startDate": "2023",
       "endDate": "2024",
       "roles": ["The Endless Mile"]
+    },
+    {
+      "name": "Simplified ISA and CPU in SystemVerilog⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+      "highlights": [
+        "Simulated and synthesized a simplified variant of the RISC-V ISA onto Altera FPGA for class project, including ALU, finite state machine, datapath, and register file",
+        "Studied and benchmarked performance of arithmetic operations via assembly program",
+        "Designed and implemented new instruction to perform 32-bit addition at greatly increased speed, modifying both FSM and datapath accordingly"
+      ],
+      "startDate": "Mar 2023",
+      "endDate": "May 2023",
+      "roles": ["RISC240"]
     },
     {
       "name": "Experimental stage production⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
